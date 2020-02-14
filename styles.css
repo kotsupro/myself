@@ -1,0 +1,101 @@
+body{
+  background-image: url(../background-image.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  font-size:35px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 20%;
+  height: 100%;
+  float:left;
+}
+
+span{
+  color:red;
+}
+
+header .container{
+  height:100%;
+}
+
+.container h1,.container p{
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+
+.container p{
+  width:100%;
+  word-wrap:break-word; 
+}
+
+ h1 a{
+  display: block;
+  padding-top: 200px;
+  margin-top: -200px;
+}
+
+section{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align:center;
+  color: white;
+}
+
+section h1{
+  padding-top: 700px;
+}
+
+section p{
+  word-wrap:break-word;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.thanks a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+}
+
+.f-container{
+  height:100%;
+  width:100%;
+  position:relative;
+  
+}
+
+.f-container p{
+  display: inline-block;
+  position:absolute;
+  right: 15px;
+  bottom: 0;
+}
+
+.f-container ul{
+  list-style: none;
+  line-height: 4em;
+  width:100%;
+  position:absolute;
+  top:30%;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
